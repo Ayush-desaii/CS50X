@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+    </head>
+    <body>
+      <header class="header">
+        <ul class="nav justify-content-end">
+          <a class="logo4">Education</a>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Main</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="hobby.html">Hobby</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="career.html">Career</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="ach.html">Achivements</a>
+          </li>
+        </ul>
+      </header>
+      <main>
+        <div class="para">
+          <c class="first">Education</c>
+          <c class="second"> is the most significant tool in eliminating poverty and unemployment. Moreover, it enhances the commercial scenario and benefits the country overall. So, the higher the level of education in a country, the better the chances of development are.
+
+            <br> <br>  In addition, this education also benefits an individual in various ways. It helps a person take a better and informed decision with the use of their knowledge. This increases the success rate of a person in life.
+
+            Subsequently, education is also responsible for providing with an enhanced lifestyle. <br>  <br> It gives you career opportunities that can increase your quality of life.
+
+            Similarly, education also helps in making a person independent. When one is educated enough, they won’t have to depend on anyone else for their livelihood. <br>   <br>   They will be self-sufficient to earn for themselves and lead a good life.
+
+            Above all, education also enhances the self-confidence of a person and makes them certain of things in life. When we talk from the countries viewpoint, even then education plays a significant role. Educated people vote for the better candidate of the country. This ensures the development and growth of a nation.</c>
+
+        </div>
+      </main>
+
+      <div id="liveAlertPlaceholder"></div>
+      <button type="button" class="btn btn-primary" id="liveAlertBtn">contact</button>
+
+      <footer>
+        <p class="text-center"><br><br>Copyright &copy; CS50 ayush desai<br><br></p>
+      </footer>
+
+      <script>
+
+      var alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+var alertTrigger = document.getElementById('liveAlertBtn')
+
+function alert(message, type) {
+var wrapper = document.createElement('div')
+wrapper.innerHTML = '<div class="alert alert-' + type + ' alert-dismissible" role="alert">' + message + '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>'
+
+alertPlaceholder.append(wrapper)
+}
+
+if (alertTrigger) {
+alertTrigger.addEventListener('click', function () {
+  alert('E-mail = ayushdesai@gmail.com   contact no. : 9624486046  ', 'success')
+})
+}
+  </script>
+    </body>
+</html>

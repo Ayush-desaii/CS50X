@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+    </head>
+    <body>
+      <header class="header">
+        <ul class="nav justify-content-end">
+          <a class="logo5">Achievements</a>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Main</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="hobby.html">Hobby</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="career.html">Career</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="edu.html">Education</a>
+          </li>
+
+        </ul>
+      </header>
+      <main>
+        <div class="para">
+          <c class="first">Achievements</c>
+          <c class="second"> are the signs of good student life. They show the talent, the worth and the status of a student. To achieve something we work hard and we become focused. Therefore, we learn a lot of things like self discipline, hard work, dedication, self respect and motivation.
+
+
+            School life achievements are good and they must be the part of student’s life.<br><br> I have a good many my school achievements. I must be proud of whatever I have achieved through out my personal life. I am the student of class (your current class). Currently I am studying at the school (Write the name of your school). Throughout my years of schools I have achieved valuable success.
+
+            I have some personal achievements, some academic achievements and a few extracurricular achievements. I have been a diligent and dedicated student of my school. In fact, I am the favorite student in my school. It is my greatest achievement that I have been getting A+ in all of my exams and assessments.
+
+            This achievement is in fact due to the hard work done under the guidance of my teachers and prayers of my parents. <br><br>I always take interest in extracurricular activities. I am good speaker and good at playing cricket. It is my great extracurricular achievement that I secured first prize in inter schools debates and speech competition, held last month.
+
+            All of my school fellows and my teachers are proud of me. Apart from that I represented my team in annual inter schools cricket tournament. We successfully won the final match. It is my biggest sports achievement of student’s life. I will never forget.
+
+            I am grateful to my school teachers and my parents. <br><br>Thanks to those achievements and set goals I struggled and worked hard. Thereby, I have known how to work hard and how to make achievements. My school achievements are surely going to help me to grow and gain more in my upcoming life days.</c>
+
+        </div>
+      </main>
+
+      <div id="liveAlertPlaceholder"></div>
+      <button type="button" class="btn btn-primary" id="liveAlertBtn">contact</button>
+
+
+      <footer>
+        <p class="text-center"><br><br>Copyright &copy; CS50 ayush desai<br><br></p>
+      </footer>
+
+
+      <script>
+
+      var alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+var alertTrigger = document.getElementById('liveAlertBtn')
+
+function alert(message, type) {
+var wrapper = document.createElement('div')
+wrapper.innerHTML = '<div class="alert alert-' + type + ' alert-dismissible" role="alert">' + message + '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>'
+
+alertPlaceholder.append(wrapper)
+}
+
+if (alertTrigger) {
+alertTrigger.addEventListener('click', function () {
+  alert('E-mail = ayushdesai@gmail.com   contact no. : 9624486046  ', 'success')
+})
+}
+  </script>
+    </body>
+</html>

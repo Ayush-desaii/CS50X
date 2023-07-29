@@ -1,0 +1,11 @@
+sort1 uses: Bubble sort
+
+How do you know?: because it takes time in between sort2 and sort3. that shows that it's omega is n.
+
+sort2 uses: Merge sort
+
+How do you know?: because it take less time to sort then other sorts. that shows that it's omega is nlogn that's why it is merge sort.
+
+sort3 uses: Selection sort
+
+How do you know?: because it takes more time then other sorts. that shoes that it's omega is n^2.

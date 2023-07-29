@@ -1,0 +1,97 @@
+.header .logo1 {
+
+    font-size: 33px;
+    font-family: 'Sriracha', cursive;
+    color: #000;
+    text-decoration: none;
+    margin-right: 676px;
+    color: #483d8b;
+  }
+.header .logo2 {
+    font-size: 33px;
+    font-family: 'Sriracha', cursive;
+    color: #000;
+    text-decoration: none;
+    margin-right: 790px;
+    color: #483d8b;
+}
+.header .logo3 {
+    font-size: 33px;
+    font-family: 'Sriracha', cursive;
+    color: #000;
+    text-decoration: none;
+    margin-right: 780px;
+    color: #483d8b;
+  }
+  .header .logo4 {
+    font-size: 33px;
+    font-family: 'Sriracha', cursive;
+    color: #000;
+    text-decoration: none;
+    margin-right: 773px;
+    color: #483d8b;
+  }
+  .header .logo5 {
+
+    font-size: 33px;
+    font-family: 'Sriracha', cursive;
+    color: #000;
+    text-decoration: none;
+    margin-right: 710px;
+    color: #483d8b;
+  }
+.intro
+{
+    margin-left : 150px;
+    margin-top: 100px;
+}
+.intro .in1
+{
+    font-size: 50px;
+    font-family : Franklin Gothic Medium;
+
+}
+.intro .in2
+{
+    font-size: 30px;
+    font-family : "monaco", monospace;
+    color: #483d8b;
+}
+
+
+.header
+{
+    background-color: #e6e6fa;
+}
+body
+{
+    background-image: url("back.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.first{
+    font-size: 30px;
+    font-family : "monaco", monospace;
+    color: #483d8b;
+}
+.para
+{
+  margin-top: 100px;
+  margin-left: 50px;
+}
+.second
+{
+  font-size: 20px;
+  font-family : "geneva", geneva;
+}
+
+.btn
+{
+  margin-left: 600px;
+  margin-top: 50px;
+}
+
+.text-center {
+  text-align: center;
+}

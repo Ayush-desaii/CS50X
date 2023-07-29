@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+    </head>
+    <body>
+      <header class="header">
+        <ul class="nav justify-content-end">
+          <a class="logo2">Hobby</a>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Main</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="career.html">Career</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="edu.html">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ach.html">Achivements</a>
+          </li>
+        </ul>
+      </header>
+      <main>
+        <div class="para">
+          <c class="first">If i were</c>
+          <c class="second"> to pick one favourite hobby of mine out of the many I have, I will definitely pick gardening. I developed a taste for dancing when I was very young. The way my feet moved to the rhythm of the music convinced my parents that I was a born dancer. Dancing is very uplifting as well as economical.
+
+            I have always had a love for music and dance. <br>   <br>   However, I never realized the utter joy they bring to humans. Dancing gives us a lot of exercises. It teaches us to move our body rhythmically and feel the beat of every song. This kind of physical exercise is extremely delightful and enjoyable.
+
+            Moreover, dance also taught me how to stay strong and push my limits. <br>   <br>   I have had many injuries while dancing, too many bruises and cuts but that didn’t stop me from pursuing it further. In fact, it pushes me to do my best and realize my potential more than ever.
+
+            I have enrolled in dancing classes because I wish to make my hobby my career. <br>   <br>   I feel we all should do things which we enjoy doing. Everyone is running after money and in this race, they give up their likings and preferences. I have learned from this race and decided to not take part in it. I wish to take the road less traveled by and take on challenges most people don’t dare to.
+
+            In short, my hobby of dancing makes me feel alive and well. It is the only thing I look forward the most to. Thus, I hope to achieve my dream of being a professional dancer and making way for people who wish to make careers out of their hobbies.</c>
+
+        </div>
+        </main>
+
+        <div id="liveAlertPlaceholder"></div>
+        <button type="button" class="btn btn-primary" id="liveAlertBtn">contact</button>
+
+        <footer>
+          <p class="text-center"><br><br>Copyright &copy; CS50 ayush desai<br><br></p>
+        </footer>
+
+        <script>
+
+        var alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+var alertTrigger = document.getElementById('liveAlertBtn')
+
+function alert(message, type) {
+  var wrapper = document.createElement('div')
+  wrapper.innerHTML = '<div class="alert alert-' + type + ' alert-dismissible" role="alert">' + message + '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>'
+
+  alertPlaceholder.append(wrapper)
+}
+
+if (alertTrigger) {
+  alertTrigger.addEventListener('click', function () {
+    alert('E-mail = ayushdesai@gmail.com   contact no. : 9624486046  ', 'success')
+  })
+}
+    </script>
+    </body>
+</html>
